@@ -1,0 +1,23 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+small {
+    margin: 10px;
+    text-align: center;
+    color: #9A9A9A;
+}
+
+.loginButton {
+    margin-top: 20px;
+    background-color: #0080BA;
+    padding: 15px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: filter 0.2s;
+  }
+
+.loginButton:hover {
+    filter: brightness(0.9);
+}
